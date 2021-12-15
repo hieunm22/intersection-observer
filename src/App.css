@@ -28,6 +28,11 @@
   color: #61dafb;
 }
 
+.item {
+  height: 500px;
+  margin-bottom: 20px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +40,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+#observe-parent {
+  height: 90vh;
+  border: solid 1px blue;
+  overflow: scroll;
+}
+
+#observe-footer {
+  height: 50px;
+  opacity: 0;
+  transform: translateY(-700px);
 }
